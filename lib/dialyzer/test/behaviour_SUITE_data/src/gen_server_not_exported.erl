@@ -4,13 +4,13 @@
 
 -export([main/0, handle_call/3]).
 
-%% Not exported. Should be a warning.
 main() ->
     _ = init(whatever),
     _ = handle_cast(whatever, some_state),
     _ = format_status(<<"xyz">>),
     ok.
 
+%% Not exported. Should be a warning.
 init(_) ->
     ok.
 
