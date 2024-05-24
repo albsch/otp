@@ -1,4 +1,4 @@
-%%% This is a correct callback module for the correct_behaviour.
+%%% This is an incorrect callback module for the correct_behaviour.
 
 -module(incorrect_args_callback).
 
